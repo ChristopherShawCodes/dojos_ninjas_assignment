@@ -1,0 +1,127 @@
+/* Styling for home */
+body{
+background-color: #8d8d92;
+opacity: 1;
+background-image: radial-gradient(#37373a 0.65px, #8d8d92 0.65px);
+background-size: 13px 13px;
+}
+
+
+
+/* styling for ninjas page */
+.main {
+    width: 380px;
+    margin: 0 auto;
+    margin-top: 200px;
+    height: auto;
+    display: flex;
+}
+
+#ninja_form{
+    padding: 300px;
+}
+
+#ninjas_home{
+    margin-left: 30px;
+    margin-left: 10px;
+    padding-right: 7px;
+}
+
+.home:hover{
+    background-color: blue;
+}
+
+.home{
+    border: 2px solid black;
+    background-color: whitesmoke;
+    width: 140px;
+    height: 380px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#ninjas_home:hover{
+    color: white;
+}
+
+#add_ninja{
+    border: 2px solid black;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-left: 58%;
+}
+
+#add_ninja:hover{
+    background-color: blue;
+    color: white;
+}
+
+/* styling for dojos page  */
+.dojos-main{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+#left{
+    width: 60%;
+    margin-top: 3%;
+}
+
+#form{
+    padding: 50px;
+    justify-content: center;
+}
+
+
+#create{
+    margin-top: 6%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+#right{
+    width: 40%;
+    margin-top: 200px;
+    margin-right: 20%;
+}
+
+/* styling for show dojo page */
+
+#table{
+    width: 600px;
+    margin: 0 auto;
+}
+
+#location{
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+h4{
+    text-align: center;
+}
+
+#list{
+    width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+#ninjas_home{
+    margin-left: 47%;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    display: flex;
+    padding: 20px;
+    padding-right: 4px;
+    width: 100px;
+}
+
+#ninjas_home:hover{
+    background-color: blue;
+    color: white;
+}
